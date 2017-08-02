@@ -14,9 +14,10 @@
         android:orientation="vertical">
 
         <TextView
+            android:padding="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="@android:color/darker_gray"
             android:gravity="center"
             android:text="@{sampleObject.category}"
             android:textColor="@android:color/black"
