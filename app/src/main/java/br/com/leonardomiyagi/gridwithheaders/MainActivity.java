@@ -34,15 +34,15 @@ public class MainActivity extends AppCompatActivity {
             sampleObjects.add(new SampleObject(i, "Sample Category"));
         }
         someInt = sampleObjects.size() + random.nextInt(40) + 1;
-        for (int i = sampleObjects.size() - 1; i < someInt; i++) {
+        for (int i = sampleObjects.size(); i < someInt; i++) {
             sampleObjects.add(new SampleObject(i, "Another Category"));
         }
         someInt = sampleObjects.size() + random.nextInt(40) + 1;
-        for (int i = sampleObjects.size() - 1; i < someInt; i++) {
+        for (int i = sampleObjects.size(); i < someInt; i++) {
             sampleObjects.add(new SampleObject(i, "Third Category"));
         }
         someInt = sampleObjects.size() + random.nextInt(40) + 1;
-        for (int i = sampleObjects.size() - 1; i < someInt; i++) {
+        for (int i = sampleObjects.size(); i < someInt; i++) {
             sampleObjects.add(new SampleObject(i, "Just Category"));
         }
     }
